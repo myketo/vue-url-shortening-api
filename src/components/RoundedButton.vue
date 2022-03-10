@@ -1,15 +1,15 @@
 <template>
-  <a href="#" class="get-started-btn">Get Started</a>
+  <a href="#" class="rounded-btn"><slot></slot></a>
 </template>
 
 <script>
 export default {
-  name: "GetStartedButton",
+  name: "RoundedButton",
 };
 </script>
 
 <style lang="scss">
-.get-started-btn {
+.rounded-btn {
   background: $cyan;
   color: #fff;
   padding: 1em 2.25em;

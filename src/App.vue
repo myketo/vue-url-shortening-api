@@ -10,7 +10,7 @@
         Build your brand's recognition and get detailed insights on how your
         links are performing.
       </p>
-      <get-started-button></get-started-button>
+      <rounded-button>Get Started</rounded-button>
     </div>
   </section>
 
@@ -20,7 +20,7 @@
 
   <section class="boost-your-links section">
     <h2 class="boost-header">Boost your links today</h2>
-    <get-started-button></get-started-button>
+    <rounded-button>Get Started</rounded-button>
   </section>
 
   <page-footer></page-footer>
@@ -28,7 +28,7 @@
 
 <script>
 import Navigation from "./components/Navigation.vue";
-import GetStartedButton from "./components/GetStartedButton.vue";
+import RoundedButton from "./components/RoundedButton.vue";
 import ShortenLink from "./components/ShortenLink.vue";
 import AdvancedStatistics from "./components/AdvancedStatistics.vue";
 import PageFooter from "./components/PageFooter.vue";
@@ -36,7 +36,7 @@ export default {
   name: "App",
   components: {
     Navigation,
-    GetStartedButton,
+    RoundedButton,
     ShortenLink,
     AdvancedStatistics,
     PageFooter,

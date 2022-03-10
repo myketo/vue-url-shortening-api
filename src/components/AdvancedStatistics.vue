@@ -39,7 +39,8 @@ export default {
 .advanced-statistics-container {
   text-align: center;
   background-color: hsl(0, 0, 0, 5%);
-  padding: 0 1.3em 5em 1.3em;
+  padding: 9.5em 1.3em 5em 1.3em;
+  margin-top: -9.5em;
 
   .statistics-header {
     font-size: 1.5em;

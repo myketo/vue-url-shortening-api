@@ -14,6 +14,12 @@
 export default {
   name: "HamburgerMenu",
 
+  props: {
+    showNav: Boolean,
+  },
+
+  emits: ["update:showNav"],
+
   data() {
     return {
       isHamburgerActive: false,
@@ -23,7 +29,7 @@ export default {
   methods: {
     toggleNavigation() {
       this.isHamburgerActive = !this.isHamburgerActive;
-      this.$emit("clicked", this.isHamburgerActive);
+      this.$emit("update:showNav", this.isHamburgerActive);
     },
   },
 };
